@@ -18,7 +18,11 @@ jar {
 }
 
 dependencies {
-    implementation 'com.squareup.okhttp3:okhttp:5.1.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0' // retroFit dependency
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    implementation 'com.squareup.okhttp3:okhttp:5.1.0' // OkHttp dependency
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
